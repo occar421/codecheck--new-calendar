@@ -2,8 +2,11 @@
   "name": "bizarre-calendar",
   "version": "1.0.0",
   "description": "codecheck challenge",
+    "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "mocha"
+    "test": "codecheck"
   },
   "author": "Givery",
   "devDependencies": {
