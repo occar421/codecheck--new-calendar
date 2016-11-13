@@ -1,3 +1,5 @@
+build:
+- mcs "src/*.cs" -out:TheApp.exe
 env:
-  APP_COMMAND: node index.js
+  APP_COMMAND: mono TheApp.exe
 test: mocha
